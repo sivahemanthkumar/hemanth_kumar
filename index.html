@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Kopparapu Siva Hemanth Kumar - Python Developer and Data Science Enthusiast specializing in Deep Learning, MERN Stack, and Data Analytics.">
+    <meta name="keywords" content="Kopparapu Siva Hemanth Kumar, Python Developer, Data Science Enthusiast, MERN Stack, Deep Learning, CNN BiLSTM, Portfolio">
+    <meta name="author" content="Kopparapu Siva Hemanth Kumar">
+    <title>Kopparapu Siva Hemanth Kumar | Python Developer & Data Science Enthusiast</title>
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Kopparapu Siva Hemanth Kumar | Portfolio">
+    <meta property="og:description" content="Computer Science Graduate, Python Developer & Data Science Enthusiast. View projects, skills, and certifications.">
+    <meta property="og:type" content="website">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar-header">
+        <nav class="navbar container" aria-label="Main Navigation">
+            <a href="#hero" class="brand-logo" aria-label="Home Page">
+                <span class="logo-monogram">KH</span>
+                <span class="logo-text">Hemanth<span class="accent-dot">.dev</span></span>
+            </a>
+
+            <div class="nav-links-wrapper" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link"><i class="fa-regular fa-user"></i> About</a></li>
+                    <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+                    <li><a href="#projects" class="nav-link"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+                    <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                    <li><a href="#certifications" class="nav-link"><i class="fa-solid fa-certificate"></i> Certifications</a></li>
+                    <li><a href="#highlights" class="nav-link"><i class="fa-solid fa-bolt"></i> Strengths</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fa-regular fa-envelope"></i> Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="assets/resume.pdf" class="btn btn-outline nav-btn" download target="_blank" rel="noopener">
+                        <i class="fa-solid fa-file-arrow-down"></i> Resume
+                    </a>
+                </div>
+            </div>
+
+            <button class="hamburger" id="hamburger-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-grid"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="pulsing-dot"></span>
+                        <span class="badge-text">Python with Data Science Trainee @ QSpiders</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">K. Siva Hemanth Kumar</span>
+                    </h1>
+                    
+                    <h2 class="hero-subtitle">
+                        Python Developer <span class="divider">|</span> Data Science Enthusiast
+                    </h2>
+                    
+                    <p class="hero-description">
+                        Motivated Computer Science graduate passionate about solving real-world challenges through data-driven insights, hybrid deep learning architectures, and modern full-stack web applications.
+                    </p>
+
+                    <div class="hero-highlights">
+                        <div class="highlight-chip"><i class="fa-solid fa-location-dot"></i> Guntur / AP, India</div>
+                        <div class="highlight-chip"><i class="fa-solid fa-chart-line"></i> 98.03% Model Accuracy Achieved</div>
+                        <div class="highlight-chip"><i class="fa-solid fa-graduation-cap"></i> B.Tech CSE (7.8 CGPA)</div>
+                    </div>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-eye"></i> View Projects
+                        </a>
+                        <a href="assets/resume.pdf" class="btn btn-secondary" download target="_blank" rel="noopener">
+                            <i class="fa-solid fa-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-regular fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <span class="social-label">Connect:</span>
+                        <a href="https://linkedin.com/in/kopparapu-siva-hemanth-kumar-6ba649276" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/sivahemanthkumar" target="_blank" rel="noopener" aria-label="GitHub Profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:hemanthk0919@gmail.com" aria-label="Send Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919701007035" aria-label="Call Phone Number">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="profile-card-wrapper">
+                        <div class="profile-card">
+                            <div class="profile-avatar">
+                                <i class="fa-solid fa-user-astronaut avatar-icon"></i>
+                            </div>
+                            <div class="profile-info">
+                                <h3>K. S. Hemanth Kumar</h3>
+                                <p class="profile-role">CS Graduate (2026)</p>
+                            </div>
+                            <div class="code-snippet-box">
+                                <div class="code-header">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                    <span class="code-title">developer.py</span>
+                                </div>
+                                <pre><code><span class="keyword">class</span> <span class="class-name">Developer</span>:
+    <span class="keyword">def</span> <span class="func">__init__</span>(self):
+        self.name = <span class="string">"Hemanth Kumar"</span>
+        self.focus = [<span class="string">"Python"</span>, <span class="string">"Data Science"</span>, <span class="string">"MERN"</span>]
+        self.status = <span class="string">"Learning & Building"</span>
+        
+    <span class="keyword">def</span> <span class="func">get_goal</span>(self):
+        <span class="keyword">return</span> <span class="string">"Solving complex real-world problems"</span></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">// GET TO KNOW ME</span>
+                    <h2 class="section-title">Career Objective & Profile</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-main-card">
+                        <p class="about-lead">
+                            I am a motivated and detail-oriented Computer Science graduate with a strong foundation in <strong>Python programming, data structures, algorithms, and data analysis</strong>.
+                        </p>
+                        <p class="about-body">
+                            Currently, I am pursuing intensive industry training in <strong>Python with Data Science at QSpiders, Punjagutta</strong>. My core technical drive lies in transforming complex datasets into actionable insights, building robust hybrid machine learning models, and crafting intuitive, responsive web interfaces using modern frameworks.
+                        </p>
+
+                        <div class="objective-callout">
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p>Eager to contribute my analytical skills and software development foundation in a challenging environment while continuously learning and growing alongside industry professionals.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-stats-sidebar">
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-bullseye"></i></div>
+                            <div class="stat-content">
+                                <span class="stat-value">98.03%</span>
+                                <span class="stat-label">Model Accuracy (Threat Detection)</span>
+                            </div>
+                        </div>
+
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="stat-content">
+                                <span class="stat-value">7.8</span>
+                                <span class="stat-label">B.Tech CGPA (Narasaraopeta Eng. College)</span>
+                            </div>
+                        </div>
+
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-code-commit"></i></div>
+                            <div class="stat-content">
+                                <span class="stat-value">3+</span>
+                                <span class="stat-label">End-to-End Key Projects Built</span>
+                            </div>
+                        </div>
+
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-language"></i></div>
+                            <div class="stat-content">
+                                <span class="stat-value">English & Telugu</span>
+                                <span class="stat-label">Languages Spoken</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-padding bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">// TECHNICAL CAPABILITIES</span>
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-terminal"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag primary"><i class="fa-brands fa-python"></i> Python</span>
+                            <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+                            <span class="skill-tag"><i class="fa-solid fa-cubes"></i> OOPs in Python</span>
+                        </div>
+                    </div>
+
+                    <!-- Web Technologies -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Web Technologies</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag primary"><i class="fa-brands fa-react"></i> React.js</span>
+                            <span class="skill-tag primary"><i class="fa-brands fa-node-js"></i> Node.js</span>
+                            <span class="skill-tag"><i class="fa-solid fa-server"></i> Express.js</span>
+                            <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+                            <span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Science & Machine Learning -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-brain"></i>
+                            <h3>Data Science & ML</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag primary"><i class="fa-solid fa-chart-pie"></i> Data Analysis</span>
+                            <span class="skill-tag"><i class="fa-solid fa-magnifying-glass-chart"></i> Exploratory Data Analysis (EDA)</span>
+                            <span class="skill-tag"><i class="fa-solid fa-filter"></i> Data Cleaning</span>
+                            <span class="skill-tag"><i class="fa-solid fa-microchip"></i> Scikit-learn (Basics)</span>
+                            <span class="skill-tag"><i class="fa-solid fa-calculator"></i> Statistical Analysis</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Visualization & Libraries -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h3>Data Visualization & Libraries</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-solid fa-database"></i> Pandas</span>
+                            <span class="skill-tag"><i class="fa-solid fa-square-root-variable"></i> NumPy</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-area"></i> Matplotlib</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-bar"></i> Seaborn</span>
+                            <span class="skill-tag"><i class="fa-solid fa-diagram-project"></i> Plotly</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Databases & Querying</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag primary"><i class="fa-solid fa-database"></i> MySQL</span>
+                            <span class="skill-tag primary"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+                            <span class="skill-tag"><i class="fa-solid fa-code"></i> SQL Querying</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Version Control -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-wrench"></i>
+                            <h3>Tools & Technologies</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+                            <span class="skill-tag"><i class="fa-brands fa-github"></i> GitHub</span>
+                            <span class="skill-tag"><i class="fa-solid fa-code-merge"></i> VS Code</span>
+                            <span class="skill-tag"><i class="fa-solid fa-book-open"></i> Jupyter Notebook</span>
+                            <span class="skill-tag"><i class="fa-brands fa-google"></i> Google Colab</span>
+                            <span class="skill-tag"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">// FEATURED WORK</span>
+                    <h2 class="section-title">Projects & System Implementations</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Threat Detection -->
+                    <article class="project-card featured-project">
+                        <div class="project-header">
+                            <div class="project-badge">Deep Learning / Cybersecurity</div>
+                            <h3 class="project-title">Threat Detection Using CNN + BiLSTM</h3>
+                        </div>
+                        
+                        <div class="project-body">
+                            <p class="project-description">
+                                Architected and built a hybrid deep learning framework combining Convolutional Neural Networks (CNN) for spatial feature extraction with Bidirectional LSTM (BiLSTM) for temporal sequence analysis to detect cyber threats accurately.
+                            </p>
+
+                            <ul class="project-highlights-list">
+                                <li><i class="fa-solid fa-circle-check"></i> Executed rigorous data preprocessing, noise removal, and feature engineering on network security data.</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Applied systematic hyperparameter tuning to boost threat classification accuracy to <strong>98.03%</strong>.</li>
+                            </ul>
+
+                            <div class="project-tech-stack">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>Keras</span>
+                                <span>NumPy</span>
+                                <span>Pandas</span>
+                                <span>Matplotlib</span>
+                            </div>
+                        </div>
+
+                        <div class="project-footer">
+                            <a href="https://github.com/sivahemanthkumar" target="_blank" rel="noopener" class="btn btn-sm btn-outline">
+                                <i class="fa-brands fa-github"></i> Code Repository
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: TutorHub -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-badge">Full-Stack MERN</div>
+                            <h3 class="project-title">TutorHub - Find & Connect with Tutors</h3>
+                        </div>
+
+                        <div class="project-body">
+                            <p class="project-description">
+                                Designed and developed a comprehensive full-stack web platform connecting students with qualified private tutors based on subjects, scheduling, and verified reviews.
+                            </p>
+
+                            <ul class="project-highlights-list">
+                                <li><i class="fa-solid fa-circle-check"></i> Implemented tutor profiles, interactive session booking, messaging workflows, and student reviews.</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Integrated custom search and filtering controls for seamless user discovery.</li>
+                            </ul>
+
+                            <div class="project-tech-stack">
+                                <span>MongoDB</span>
+                                <span>Express.js</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="project-footer">
+                            <a href="https://github.com/sivahemanthkumar" target="_blank" rel="noopener" class="btn btn-sm btn-outline">
+                                <i class="fa-brands fa-github"></i> Code Repository
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Weather Dashboard -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-badge">Web API Application</div>
+                            <h3 class="project-title">Weather Dashboard Web Application</h3>
+                        </div>
+
+                        <div class="project-body">
+                            <p class="project-description">
+                                Built an interactive, responsive weather tracking application that delivers real-time meteorological conditions and extended 5-day weather forecasts for any searched location.
+                            </p>
+
+                            <ul class="project-highlights-list">
+                                <li><i class="fa-solid fa-circle-check"></i> Integrated OpenWeatherMap RESTful API to parse and display real-time weather metrics smoothly.</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Crafted a dynamic responsive frontend with robust error handling for invalid location queries.</li>
+                            </ul>
+
+                            <div class="project-tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>RESTful API</span>
+                                <span>OpenWeatherMap</span>
+                            </div>
+                        </div>
+
+                        <div class="project-footer">
+                            <a href="https://github.com/sivahemanthkumar" target="_blank" rel="noopener" class="btn btn-sm btn-outline">
+                                <i class="fa-brands fa-github"></i> Code Repository
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section-padding bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">// ACADEMIC BACKGROUND</span>
+                    <h2 class="section-title">Education & Qualifications</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- B.Tech -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-year">2022 – 2026</span>
+                                <span class="score-pill">7.8 CGPA</span>
+                            </div>
+                            <h3 class="degree-title">B.Tech in Computer Science and Engineering</h3>
+                            <h4 class="institution-name">Narasaraopeta Engineering College</h4>
+                            <p class="education-details">Focused on core CS fundamentals including Data Structures, Algorithms, Database Management Systems, Object-Oriented Programming in Python, Web Development, and Deep Learning.</p>
+                        </div>
+                    </div>
+
+                    <!-- Intermediate -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-year">2020 – 2022</span>
+                                <span class="score-pill">68%</span>
+                            </div>
+                            <h3 class="degree-title">Intermediate (MPC - Maths, Physics, Chemistry)</h3>
+                            <h4 class="institution-name">Shree Jeevan Jyothi Junior College</h4>
+                            <p class="education-details">Completed pre-university education with an emphasis on Mathematics, Physical Sciences, and logical reasoning foundations.</p>
+                        </div>
+                    </div>
+
+                    <!-- SSC -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"><i class="fa-solid fa-building-columns"></i></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-year">Passed 2020</span>
+                                <span class="score-pill highlight">93.5%</span>
+                            </div>
+                            <h3 class="degree-title">SSC (Secondary School Certificate)</h3>
+                            <h4 class="institution-name">Sri Sai International High School</h4>
+                            <p class="education-details">Achieved distinction with 93.5% marks, developing strong analytical capabilities and foundational academic excellence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">// PROFESSIONAL TRAINING</span>
+                    <h2 class="section-title">Certifications & Training</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon-wrapper">
+                            <i class="fa-brands fa-python cert-icon"></i>
+                        </div>
+                        <div class="cert-details">
+                            <div class="cert-status-tag ongoing">Ongoing Specialized Training</div>
+                            <h3 class="cert-title">Python with Data Science</h3>
+                            <p class="cert-provider"><i class="fa-solid fa-building"></i> QSpiders, Punjagutta, Hyderabad</p>
+                            <p class="cert-description">
+                                Intensive hands-on curriculum covering Advanced Python, Exploratory Data Analysis (EDA), Data Wrangling with Pandas & NumPy, Data Visualization, SQL Querying, and foundational Machine Learning algorithms.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Strengths & Highlights Section -->
+        <section id="highlights" class="section-padding bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">// CORE COMPETENCIES</span>
+                    <h2 class="section-title">Key Strengths & Competencies</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="strengths-grid">
+                    <div class="strength-card">
+                        <div class="strength-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+                        <h3>Problem Solving</h3>
+                        <p>Analytical mindset trained to break down complex computing and logical challenges into structured algorithmic solutions.</p>
+                    </div>
+
+                    <div class="strength-card">
+                        <div class="strength-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <h3>Quick Learner</h3>
+                        <p>Adept at rapidly adapting to emerging libraries, tech stacks, and modern software development paradigms.</p>
+                    </div>
+
+                    <div class="strength-card">
+                        <div class="strength-icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                        <h3>Adaptability</h3>
+                        <p>Comfortable switching between data science data pipelines and full-stack web development tasks smoothly.</p>
+                    </div>
+
+                    <div class="strength-card">
+                        <div class="strength-icon"><i class="fa-solid fa-people-group"></i></div>
+                        <h3>Team Collaboration</h3>
+                        <p>Effective collaborator skilled in working within group environments, version-controlled workflows, and shared project goals.</p>
+                    </div>
+
+                    <div class="strength-card">
+                        <div class="strength-icon"><i class="fa-solid fa-clock"></i></div>
+                        <h3>Time Management</h3>
+                        <p>Disciplined approach to prioritizing project requirements, meeting deadlines, and maintaining clean code standards.</p>
+                    </div>
+
+                    <div class="strength-card">
+                        <div class="strength-icon"><i class="fa-solid fa-comments"></i></div>
+                        <h3>Good Communication</h3>
+                        <p>Clear spoken and written communicator in English and Telugu, capable of presenting technical findings clearly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">// GET IN TOUCH</span>
+                    <h2 class="section-title">Contact Information</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info-card">
+                        <h3>Let's Connect & Collaborate</h3>
+                        <p>I am actively seeking opportunities in Python Development, Data Analysis, and Software Engineering. Feel free to reach out directly through any of the channels below.</p>
+
+                        <div class="contact-methods">
+                            <a href="mailto:hemanthk0919@gmail.com" class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Email Address</span>
+                                    <span class="contact-value">hemanthk0919@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:+919701007035" class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Phone Number</span>
+                                    <span class="contact-value">+91 9701007035</span>
+                                </div>
+                            </a>
+
+                            <a href="https://linkedin.com/in/kopparapu-siva-hemanth-kumar-6ba649276" target="_blank" rel="noopener" class="contact-item">
+                                <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+                                <div class="contact-text">
+                                    <span class="contact-label">LinkedIn Profile</span>
+                                    <span class="contact-value">kopparapu-siva-hemanth-kumar-6ba649276</span>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/sivahemanthkumar" target="_blank" rel="noopener" class="contact-item">
+                                <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                                <div class="contact-text">
+                                    <span class="contact-label">GitHub Profile</span>
+                                    <span class="contact-value">github.com/sivahemanthkumar</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card-direct">
+                        <div class="card-inner">
+                            <i class="fa-solid fa-paper-plane direct-icon"></i>
+                            <h3>Direct Reachout</h3>
+                            <p>Looking for a dedicated graduate developer with Python and Data Science skills for your team?</p>
+                            <a href="mailto:hemanthk0919@gmail.com?subject=Job%20Opportunity%20/%20Inquiry" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-envelope-open-text"></i> Send Email Message
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#hero" class="brand-logo">
+                    <span class="logo-monogram">KH</span>
+                    <span class="logo-text">Hemanth<span class="accent-dot">.dev</span></span>
+                </a>
+                <p>Kopparapu Siva Hemanth Kumar — Python Developer & Data Science Enthusiast.</p>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-socials">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/kopparapu-siva-hemanth-kumar-6ba649276" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/sivahemanthkumar" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:hemanthk0919@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-content">
+                <p>&copy; <span id="current-year">2026</span> Kopparapu Siva Hemanth Kumar. All rights reserved.</p>
+                <p class="declaration-note">I hereby declare that the above information is true to the best of my knowledge and belief.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top of page">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="index.js"></script>
+</body>
+</html>
